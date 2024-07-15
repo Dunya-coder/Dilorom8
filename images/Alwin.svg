@@ -25,7 +25,7 @@
     <polygon id="sky_right" points="723.347 0 565.821 640 1280 640 1280 0 723.347 0" fill="#74a2d6" stroke="#74a2d6" />
     <rect id="name-bg-1" y="0" width="1280" height="640" fill="#252e40" />
 
-    <!-- NAME: Alwin -->
+    <!-- NAME: Dilorom -->
     <polygon id="A-outside" class="name-outline"
         points="376.844 343.399 361.003 389.721 330.763 389.721 392.924 218.837 431.565 218.837 493.727 389.721 463.486 389.721 447.646 343.399 376.844 343.399"
         pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
@@ -45,7 +45,7 @@
         d="M933.88,315.08v74.64H906.52V317.48c0-21.84-9.36-30.48-24.72-30.48C866.2,287,854,298.76,854,322v67.68H826.6V267.8h25.92v15.84H853a43.52,43.52,0,0,1,36.48-18.72C917.08,264.92,933.88,281.72,933.88,315.08Z"
         transform="translate(0 2.5)" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
 
-    <!-- INITIAL: Flash Alwin for image preview and browsers that don't support animation -->
+    <!-- INITIAL: Flash Dilorom for image preview and browsers that don't support animation -->
     <animate href="#A-full" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
     <animate href="#l" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
     <animate href="#w" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
@@ -77,28 +77,29 @@
     <path id="win" class="name-blank"
         d="M764.1992,244.998V218.8374h27.36V244.998Zm0,144.7227V267.7983h27.36V389.7207ZM933.8809,315.08v74.6411h-27.36V317.48c0-21.8408-9.36-30.481-24.7207-30.481-15.6006,0-27.8408,11.76-27.8408,35.04v67.6816h-27.36V267.7983h25.92v15.84h.48a43.5231,43.5231,0,0,1,36.4805-18.72C917.08,264.9185,933.8809,281.7188,933.8809,315.08ZM717.8848,267.7983l-11.041,48.961c-4.08,17.76-7.92,36.2407-11.04,54.0014h-.48c-3.6006-17.7607-7.6806-35.2812-12.001-53.0415l-12.24-49.9209H657.4323l-5.0158,20.3779c3.5162,17.2737,7.2623,34.3242,11.4663,51.1431l12.4805,50.4014h39.1211l29.7607-121.9224Z" />
 
-    <animate href="#Alw" attributeName="fill" values="transparent;#fff" dur="0.25s" fill="freeze"
+    <animate href="#Dil" attributeName="fill" values="transparent;#fff" dur="0.25s" fill="freeze"
         begin="name_outline.end+0.1s;graphics.click;click" />
-    <animate href="#Alw" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
+    <animate href="#Dil" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
         begin="name_outline.end+0.1s" />
     <animate href="#win" attributeName="fill" values="transparent;#fff" dur="0.25s" fill="freeze"
         begin="name_outline.end+0.1s" />
     <animate href="#win" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
         begin="name_outline.end+0.1s" id="name_fill" />
 
-    <animate href="#A-outside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+    <animate href="#D-outside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
         begin="name_outline.end" calcMode="discrete" />
-    <animate href="#A-inside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+    <animate href="#D-inside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
         begin="name_outline.end" calcMode="discrete" />
+    <animate href="#i" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+        calcMode="discrete" />
     <animate href="#l" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
         calcMode="discrete" />
-    <animate href="#w" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
-        calcMode="discrete" />
-    <animate href="#i-lower" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+    <animate href="#o-lower" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
         begin="name_outline.end" calcMode="discrete" />
-    <animate href="#i-upper" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+    <animate href="#r-upper" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
         begin="name_outline.end" calcMode="discrete" />
-    <animate href="#n" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+    <animate href="#o" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+         <animate href="#m" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
         calcMode="discrete" />
 
     <!-- Sky Background -->
