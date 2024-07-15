@@ -26,7 +26,7 @@
     <rect id="name-bg-1" y="0" width="1280" height="640" fill="#252e40" />
 
     <!-- NAME: Dilorom -->
-    <polygon id="A-outside" class="name-outline"
+    <polygon id="D-outside" class="name-outline"
         points="376.844 343.399 361.003 389.721 330.763 389.721 392.924 218.837 431.565 218.837 493.727 389.721 463.486 389.721 447.646 343.399 376.844 343.399"
         pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
     <path id="A-inside" class="name-outline"
